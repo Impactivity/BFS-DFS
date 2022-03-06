@@ -92,7 +92,7 @@ def solution(board,r,c):
     permutate(0,1,(r,c,0))
     return MinCnt
 
-
+#test case 1
 board = [[1,0,0,3],
          [2,0,0,0],
          [0,0,0,2],
