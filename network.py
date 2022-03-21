@@ -16,3 +16,5 @@ def dfs(n, computers, cur_com, visit):
         if computers[cur_com][i] == 1:
             if i != cur_com and visit[i] == 0:
                 dfs(n, computers, i, visit)
+
+
